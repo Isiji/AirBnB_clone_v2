@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 #defines the path for the root URL '/'
 
-@app.route('/', strict_slashes=False)
+@app.route('/airbnb-onepage/', strict_slashes=False)
 def hello_hbnb():
     """displays 'Hello HBNB!'"""
     return "Hello HBNB!"
